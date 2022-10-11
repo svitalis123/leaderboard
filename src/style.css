@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+* {
+  margin: 0.0001px;
+  padding: 0.0001px;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+h1 {
+  color: #111;
+  padding: 0.5rem 1rem 2rem 1rem;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  height: 10%;
+}
+
+.footer {
+  position: absolute;
+  height: 4vh;
+  background-color: #c1c1c1;
+  border: 1px solid #111;
+  width: 100%;
+  bottom: 0.0000001px;
+}
+
+.container_main {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  gap: 10rem;
+}
+
+.container_main_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.top {
+  display: flex;
+  gap: 1rem;
+}
+
+.container_main_section_ul {
+  list-style: none;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #111;
+}
+
+.container_main_section_ul > li {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.container_main_section_ul > li:nth-child(even) {
+  background-color: #c1c1c1;
+}
+
+.container_main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  order: 1;
+}
+
+#score,
+#name {
+  padding: 5px;
+  order: 1;
+  border: 2px solid #111;
+}
+
+.button {
+  order: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.thebutton {
+  padding: 5px;
+  width: 10vh;
+  box-shadow: #111 5px 5px 5px;
+  border: 1px solid #111;
+  transition: background-color ease-in-out 0.3s, color ease 0.2s;
+}
+
+.thebutton:hover {
+  background-color: #111;
+  color: #fff;
+}
