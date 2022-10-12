@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Vidaloka&display=swap');
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -15,18 +18,22 @@ html {
 }
 
 h1 {
-  color: #111;
   padding: 0.5rem 1rem 2rem 1rem;
   font-size: 40px;
+  font-family: 'Vidaloka', serif;
+  color: #fff;
 }
 
 h2 {
   font-size: xx-large;
+  color: #fff;
+  font-family: 'Handlee', cursive;
 }
 
 .container {
   height: 100vh;
   width: 100%;
+  background: url("https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/wp5998347-retro-4k-wallpapers.jpg");
 }
 
 .header {
@@ -67,7 +74,7 @@ h2 {
   width: 50vh;
   display: flex;
   flex-direction: column;
-  border: 2px solid #111;
+  border: 2px solid #fff;
   overflow-y: scroll;
 }
 
@@ -81,6 +88,10 @@ h2 {
 
 .container_main_section_ul > li:nth-child(even) {
   background-color: #c1c1c1;
+}
+
+.container_main_section_ul > li:nth-child(odd) {
+  color: #fff;
 }
 
 .container_main_form {
