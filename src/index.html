@@ -18,24 +18,19 @@
       <section class="container_main_section">
         <div class="top">
           <h2>Recent scores</h2>
-          <button type="button" class="thebutton">Refresh</button>
+          <button type="button" class="thebutton" id="refresh">Refresh</button>
         </div>
-        <ul class="container_main_section_ul">
-          <li><p>Name:</p>100</li>
-          <li><p>Name:</p>20</li>
-          <li><p>Name:</p>50</li>
-          <li><p>Name:</p>78</li>
-          <li><p>Name:</p>125</li>
-          <li><p>Name:</p>77</li>
-          <li><p>Name:</p>42</li>
+        <ul class="container_main_section_ul" id="list">
+          <li>Refresh to get the list</li>
         </ul>
       </section>
       
-        <form action="" class="container_main_form">
+        <form action="" class="container_main_form" id="form">
             <h2>Add your score</h2>
-            <input type="text" id="name" name="username" placeholder="Your name" minlength="5" required>
+            <input type="text" id="username" name="username" placeholder="Your name" minlength="5" required>
             <input type="number" id="score" name="userscore" placeholder="Your Score" required>
-            <div class="button"><button type="submit" class="thebutton">submit</button></div>
+            <div class="button"><button type="submit" class="thebutton" id="freese">submit</button></div>
+            <p id="message"></p>
         </form>
       
     </main>
