@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LEADERBOARD
 
-> Description the project.
+> Leaderboard incorparates use of api to `get` the score and `post` the store of a player online
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JS HTML CSS
+- REST API
 
 ## Live Demo (if available)
 
@@ -18,39 +17,44 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### Setup webpack 
+### Setup tests
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+  #### create a repository 
+  #### Register the game in the api and generate a `unique` key
 
 ### Setup
+  #### Install Webpack and configure
 
 ### Install
-
+    #### Webpack
+    #### Webpack cli
+    #### css-loader
+    #### style-loader
+    #### html-webpack-plugin
 ### Usage
 
 ### Run tests
+  #### npx stylelint "**/*.{css,scss}"
+  #### npx eslint .
+  #### npx hint .
 
 ### Deployment
-
+  #### netlify
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Vitalis Mutwiri**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/svitalis123)
+- Twitter: [@twitterhandle](https://twitter.com/WilsonVitalis)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/vitalismutwiri)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
