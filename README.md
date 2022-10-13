@@ -51,9 +51,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Vitalis Mutwiri**
 
-- GitHub: [@githubhandle](https://github.com/svitalis123)
-- Twitter: [@twitterhandle](https://twitter.com/WilsonVitalis)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/vitalismutwiri)
+- GitHub: [@svitalis123](https://github.com/svitalis123)
+- Twitter: [@WilsonVitalis](https://twitter.com/WilsonVitalis)
+- LinkedIn: [Vitalismutwiri](https://linkedin.com/in/vitalismutwiri)
 
 
 ## 🤝 Contributing
