@@ -2,7 +2,7 @@
 
 # LEADERBOARD
 
-> Leaderboard incorparates use of api to `get` the score and `post` the store of a player online
+> Leaderboard incorparates use of api to `get` the score and `post` the score of a player online
 
 
 ## Built With
@@ -66,11 +66,6 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
