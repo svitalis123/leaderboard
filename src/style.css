@@ -65,6 +65,8 @@ h2 {
   .container_main {
   flex-direction: row;
   gap: 10rem;
+  width: 80%;
+  overflow-y: hidden;
 }
 }
 
