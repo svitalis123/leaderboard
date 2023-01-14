@@ -61,7 +61,7 @@ h2 {
   gap: 3rem;
 }
 
-@media only and (min-width: 768px){
+@media only screen and (min-width: 768px){
   .container_main {
   flex-direction: row;
   gap: 10rem;
