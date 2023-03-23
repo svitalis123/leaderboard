@@ -22,6 +22,8 @@ form.addEventListener('submit', (e) => {
   setTimeout(() => {
     button.disabled = false;
   }, 3000);
+  form.username = ""
+  form.score= " "
 });
 
 document.addEventListener('DOMContentLoaded', () => {
