@@ -23,7 +23,7 @@ form.addEventListener('submit', (e) => {
     button.disabled = false;
   }, 3000);
   form.username = ""
-  form.score= " "
+  form.score= ""
 });
 
 document.addEventListener('DOMContentLoaded', () => {
