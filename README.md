@@ -28,7 +28,7 @@
 
 # 📖 LEADERBOARD <a name="about-project"></a>
 
-**LEADERBOARD** > Leaderboard incorparates use of api to `get` the score and `post` the score of a player online
+**LEADERBOARD** > Leaderboard incorparates use of api to `get` the scores and `post` the scores of a player online
 ## 🛠 Built With <a name="built-with"></a>
 - JS HTML CSS
 - REST API
