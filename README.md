@@ -116,9 +116,6 @@ If you like this project leave a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
